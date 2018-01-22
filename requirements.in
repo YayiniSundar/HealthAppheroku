@@ -1,0 +1,11 @@
+croniter
+Django<2.0
+django_compressor
+psycopg2
+pytz
+requests
+gunicorn
+whitenoise
+django-herokuify
+dj-database-url
+django-heroku-postgresify
