@@ -4,24 +4,18 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-boto==2.48.0              # via django-herokuify
 certifi==2017.11.5        # via requests
 chardet==3.0.4            # via requests
 croniter==0.3.20
 dj-database-url==0.4.2
 django-appconf==1.0.2     # via django-compressor
 django-compressor==2.2
-django-heroku-memcacheify==1.0.0  # via django-herokuify
 django-heroku-postgresify==0.4
 django-herokuify==1.0rc3
-django-pylibmc-sasl==0.2.4  # via django-herokuify
-django-pylibmc==0.6.1     # via django-heroku-memcacheify
-django-storages==1.6.5    # via django-herokuify
-django==1.11.9
+django==1.11.23
 gunicorn==19.7.1
 idna==2.6                 # via requests
 psycopg2==2.7.3.2
-pylibmc==1.5.2            # via django-herokuify, django-pylibmc, django-pylibmc-sasl
 python-dateutil==2.6.1    # via croniter
 pytz==2017.3
 rcssmin==1.0.6            # via django-compressor
